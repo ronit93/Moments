@@ -1,0 +1,218 @@
+.menu {	
+	background-color: #8BD7E0;
+}
+
+.caption {
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.nav .page {
+	color: white;
+	font-weight: 600;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	height: 100px;
+	opacity: .8;
+	margin-top: -50px;
+}
+
+#left-arrow {
+	left: 2%;
+}
+
+#right-arrow {
+	right: 2%;
+}
+
+.import {
+	text-align: center;
+}
+
+.import h4 {
+	padding-bottom: 3%;
+}
+
+.facebook img, .instagram img, .twitter img {
+	padding-right: 7%;
+}
+
+.import img {
+	height: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.folder img {
+	padding: 0;
+}
+
+fieldset {
+	padding: 0;
+}
+
+.icons {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.socialImport-container {
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	padding-bottom: 5px;
+	left: 50%;
+	top: 50%;
+	margin: -250px -200px;
+	padding: 2px 2px;
+	border: 3px solid #888888;
+	background:lightgrey;
+	font-size: 20px;
+	box-shadow: 1px 2px 1px #888888;
+}
+
+.album img, .album p {
+	width: 150px;
+}
+
+.image img {
+	width: 150px;
+	height: 100px;
+}
+
+
+.socialImport {
+	overflow: auto;
+	position:absolute;
+	width: 415px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	margin: -200px -215px;
+	padding: 2px 2px;
+	border: 3px solid #888888;
+	background-color:rgb(241, 241, 241);
+	font-size: 20px;
+}
+
+.socialImportImages {
+	background-color: white;
+	overflow: auto;
+	position:absolute;
+	width: 415px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	margin: -200px -215px;
+	padding: 2px 2px;
+	border: 3px solid #888888;
+	background-color: rgb(241, 241, 241);
+	font-size: 20px;
+}
+
+.socialImport .album {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 5%;
+}
+
+
+.images {
+	padding: 10px;
+	text-align: center;
+	background-color: rgb(241, 241, 241);
+}
+
+#addImageAddButton, #cancelImageCancelButton, #cancelAlbumAddButton, #cancelImport {
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	margin-top: -15px;
+	margin-left: -20px;
+}
+
+.instructions {
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	margin-top: -15px;
+	margin-left: 20px;
+}
+
+#cancelImport {
+	left: 90%;
+}
+
+#cancelImageCancelButton {
+	left: 85%;
+}
+
+#addImageAddButton, #cancelAlbumAddButton {
+	left: 85%;
+}
+
+p {
+	font-size: 14px;
+	color: rgb(85, 85, 85);
+}
+
+.selected {
+	border: 3px blue solid;
+}
+
+
+
+#uploadAdd {
+	width: 400px;
+	height: 300px;
+}
+#uploadAdd .field {
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+#uploadAdd #cancelUploadButton {
+	position: absolute;
+	bottom: 10px;
+	right: 90px;
+}
+#uploadAdd #uploadSubmitButton {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#uploadAdd .blueLoader {
+	display: none;
+	position: absolute;
+	width: 150px;
+	top: 90px;
+	left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
