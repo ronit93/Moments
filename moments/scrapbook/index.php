@@ -70,9 +70,10 @@
 	  	<?php else: ?>
 	  	
 	    <div class="start">
-	      <h1>Welcome to your scrapbook - Let's Get Started!</h1><br>
-	      <h2> This is your main page where all your chapters of life will be located. </h2>
-	      <h2> Add a chapter to your scrapbook by pressing the <img src="/moments/img/add_button2.png"> at the top left of this screen</h2>
+	      <h1>Welcome to your Scrapbook - Let's Get Started!</h1><br>
+	      <h2> This is your main page where all your different chapters of life will be located </h2>
+	      <h3 style="margin-top: 5px;"> You can always navigate back to here by pressing the back button or clicking "My Moments" in the top corners </h3>
+	      <h2> Add a chapter to your scrapbook by pressing the <img src="/moments/img/add_button2.png" style="margin-bottom: -3px;"> at the top left of this screen</h2>
 	    </div>
     
 		<?php endif; ?>

@@ -90,6 +90,60 @@
 			      	</li>
 			      
 			    <?php endfor; ?>
+          <!--<li class="item grabbable" draggable="true" data-index="<?php echo $i; ?>">
+                  <div>
+                    <div id="content">
+                        <video width="300" height="200" class="content" id="video_content" controls>
+                          <source src="../uploads/sampleVideo.mp4"type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                         </div>
+                    <div class="titlebox"> <h4 class="caption"><?php echo $_SESSION['chapters'][$chapterID]['pages'][$pageID]['items'][$i]['text'];?></h4>
+                      <a class="confirmButton" href="/moments/php/deleteItem.php?ch_id=<?php echo $chapterID; ?>&pg_id=<?php echo $pageID; ?>&it_id=<?php echo $i; ?>"><img id="trash" src="/moments/img/trash.png"></a>
+                    </div>
+                  </div>
+              </li>
+
+              <li class="item grabbable" draggable="true" data-index="<?php echo $i; ?>">
+                  <div>
+                    <div id="content">
+                         <audio class="content" id="audio_content" controls>
+                          <source  type="audio/mpeg" src="../uploads/sampleAudio1.mp3" type="audio/mpeg">
+                          Your Browser does not support the Audio tag.
+                        </audio>
+                        </div>
+                    <div class="titlebox"> <h4 class="caption"><?php echo $_SESSION['chapters'][$chapterID]['pages'][$pageID]['items'][$i]['text'];?></h4>
+                      <a class="confirmButton" href="/moments/php/deleteItem.php?ch_id=<?php echo $chapterID; ?>&pg_id=<?php echo $pageID; ?>&it_id=<?php echo $i; ?>"><img id="trash" src="/moments/img/trash.png"></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="item grabbable" draggable="true" data-index="<?php echo $i; ?>">
+                  <div>
+                    <div id="content">
+                        <iframe src="../uploads/sampleText.txt" width="300px" class="content" id="text_content" seamless>
+                          Your browser does not support the iframe tag.
+                        </iframe>
+                       </div>
+                    <div class="titlebox"> <h4 class="caption"><?php echo $_SESSION['chapters'][$chapterID]['pages'][$pageID]['items'][$i]['text'];?></h4>
+                      <a class="confirmButton" href="/moments/php/deleteItem.php?ch_id=<?php echo $chapterID; ?>&pg_id=<?php echo $pageID; ?>&it_id=<?php echo $i; ?>"><img id="trash" src="/moments/img/trash.png"></a>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="item grabbable" draggable="true" data-index="<?php echo $i; ?>">
+                  <div>
+                    <div id="content">
+                        <img src="../uploads/DSC_0044.jpg" class="content mainimg">
+                    </div>
+                    <div class="titlebox"> <h4 class="caption"><?php echo $_SESSION['chapters'][$chapterID]['pages'][$pageID]['items'][$i]['text'];?></h4>
+                      <a class="confirmButton" href="/moments/php/deleteItem.php?ch_id=<?php echo $chapterID; ?>&pg_id=<?php echo $pageID; ?>&it_id=<?php echo $i; ?>"><img id="trash" src="/moments/img/trash.png"></a>
+                    </div>
+                  </div>
+                </a>
+              </li>-->
 			    
 			  </ul>
 		  </div>
